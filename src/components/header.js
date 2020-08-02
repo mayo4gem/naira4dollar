@@ -32,7 +32,7 @@ class Header extends Component {
                         <div class="row">
                             <div class="col-sm-3 col-7">
                                 <div class="me-logo">
-                                    <a href="index.html"><img src="/images/logo.svg" alt="logo" class="img-fluid"/></a>
+                                    <a href="index.html"><img src="/images/logo2.svg" alt="logo" class="img-fluid"/></a>
                                 </div>
                             </div>
                             <div class="col-sm-9 col-5">

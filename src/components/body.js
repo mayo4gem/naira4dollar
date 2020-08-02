@@ -19,15 +19,53 @@ class Body extends Component {
                                 <div class="me-banner-form">
                                     <div class="me-banner-form-bg">
                                         <h1>Today's Rate</h1>
-                                            <img src="images/usa.png" width="32px" height="22px" />$100 - $499 = <img src="images/naija.png" width="32px" height="22px" /> #400
+                                            {/* <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">SELL</a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">BUY</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><img src="images/naija.png" width="32px" height="22px" /> #450/$</div>
+                                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><img src="images/usa.png" width="32px" height="22px" />#420/$</div>
+                                            </div> */}
+                                            {/* <img src="images/usa.png" width="32px" height="22px" />$100 - $499 = <img src="images/naija.png" width="32px" height="22px" /> #400
                                         <p id="me_timer"></p>
                                         <div class="me-flex">
                                             <span>All transaction is subjected to verification <b>$500</b></span>   
                                         </div>
                                         <div class="range-slider">
                                             <input type="text" class="js-range-slider" value="" />
-                                        </div>
-                                        <a href="https://wa.me/12154521232" class="me-btn">Be My Friend</a>
+                                        </div> */}
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">SELL</th>
+                                                <th scope="col">BUY</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <th scope="row">Zelle</th>
+                                                <td>420/$</td>
+                                                <td>450/$</td>
+                                                </tr>
+                                                <tr>
+                                                <th scope="row">CashApp</th>
+                                                <td>430/$</td>
+                                                <td>460/$</td>
+                                                </tr>
+                                                <tr>
+                                                <th scope="row">Cash</th>
+                                                <td>440/$</td>
+                                                <td>470/$</td>
+                                                </tr>
+                                            </tbody>
+                                            </table>
+                                        <a href="https://wa.me/12154521232" class="me-btn">Exchange Here</a>
                                     </div>
                                 </div>
                             </div>
